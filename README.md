@@ -2,6 +2,6 @@
 
 
 
-[google] (https://www.google.com/)
+[google](https://www.google.com/)
 
 ![alt text](foto.jpg)
