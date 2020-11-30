@@ -4,4 +4,4 @@
 
 [google] (https://www.google.com/)
 
-![alt text](oliwia-coder.github.io/foto.jpg)
+![alt text](foto.jpg)
