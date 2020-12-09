@@ -6,5 +6,4 @@
 
 ![alt text](foto.jpg)
 
-![alt text](layout1.jpg)
 
