@@ -1,0 +1,250 @@
+.body
+{
+    margin: auto;
+    background-color:rgb(64, 52, 97);
+}
+
+
+.container
+{
+
+    background-color:rgb(55, 46, 82); 
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+.container__head
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 95%;
+padding: 30px;
+
+}
+.logo
+{
+
+display: flex;
+flex-direction: row;
+}
+.logo h1
+{
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+font-size: 30px;
+padding: 10px;
+font-weight: bolder;
+
+}
+.logo img
+{
+    border-radius: 20%;
+    height: 56%;
+    width: 39%;
+    margin-top: 21px;
+}
+.menu ul
+{
+    
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(228, 202, 221);
+   flex-grow: inherit;
+   
+}  
+li a
+{
+   color: rgb(228, 202, 221);
+   text-decoration: none;
+   
+}
+li a:hover {
+    color:rgb(236, 222, 233);
+    font-weight: bolder;
+    
+    
+}
+ul, li 
+{
+	display: block;
+    padding-left: 30px;
+}
+.konto
+{
+
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.konto h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 15px;
+    padding: 15px;
+    
+}
+.konto img
+{
+    padding-top: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  
+}
+.container__title{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    
+}
+.name{
+    width: 90%;
+    border-bottom: 2px solid rgb(83, 74, 107);;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    align-items: flex-end;
+    
+}
+
+.name ul 
+{
+   
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.name li :hover {
+    color:rgb(236, 222, 233);
+    font-weight: bolder;
+    text-decoration: underline ;
+    text-underline-offset: 18px;
+}
+.center
+{
+    
+    width:88%;
+    background-color:rgb(55, 46, 82); 
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.left
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.list{
+    padding-top: 40px;
+}
+.list h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(107, 90, 146);
+    font-size: 15px;
+ 
+}
+.left2{
+    padding-left: 20px;
+}
+.left2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 202, 221);;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-bottom: 49px;
+}
+.left2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 160, 65);
+    font-size: 20px;
+}
+.list p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 202, 221);;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+h1 .p1{
+    display: flex;
+    flex-direction: row;
+}
+.list2{
+    padding-top: 40px;
+}
+.list2 li
+{
+padding-bottom: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(228, 202, 221);
+display: flex;
+flex-direction: column;
+
+}
+.right{
+    padding-top: 40px;
+}
+.right img{
+    height: 150px;
+}
+
+.foter{
+    
+    width:90%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:90px;
+    flex-direction: column;
+}
+.foto
+{
+
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+flex-direction: row;
+}
+.foto img{
+    border-radius: 10%;
+    height: 20%;
+    width: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    
+}
+.youtube{
+    display: flex;
+    flex-direction: row;
+}
+.youtube h1
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+   
+}
+.youtube img
+{
+    border-radius: 35%;
+    width: 2%;
+    height: 2%;
+    padding: 8px;
+}
